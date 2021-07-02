@@ -61,9 +61,16 @@ public class Logic {
     }
 
     public boolean isWin() {
-        int[][] table = this.convert();
+        if (result = true) {
+            int[][] table = this.convert();
+        } else {
+            int[][] table = this.convert();
+        }
         boolean result = false;
         return result;
+        else
+        System.out.println ("Ура!");
+
     }
 
     public int[][] convert() {
